@@ -69,7 +69,7 @@ print('RMSE: ',sqrt(mean_squared_error(actuals,predicteds)))
 print('MAE: ',mean_absolute_error(actuals,predicteds))
 
 
-plt.figure('fig1',dpi=200)
+plt.figure('fig1',dpi=300)
 plt.plot(actuals,color='red')
 plt.plot(predicteds,color='purple')
 plt.xlabel('Data Number')
@@ -78,7 +78,7 @@ plt.legend(['Actual Data','Predicted Data'])
 plt.show()
 
 
-plt.figure('fig2',dpi=200)
+plt.figure('fig2',dpi=300)
 plt.plot(actuals,actuals,color='red')
 plt.plot(actuals,predicteds,'bo',color='blue')
 plt.xlabel('Observation')
